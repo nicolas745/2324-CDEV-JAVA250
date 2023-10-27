@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Classe pour démarrage de l'application. pour TP
+ * Classe pour démarrage de l'application. pour TP NICOLAS BLANC
  */
 @SpringBootApplication
 public class DemoApplication {

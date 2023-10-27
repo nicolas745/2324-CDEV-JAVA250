@@ -50,7 +50,7 @@ public class ExportClientController {
 
     @GetMapping("xlsx")
     public void exportXLSX(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        ServletOutputStream outputStream = response.getOutputStream();
+    	ServletOutputStream outputStream = response.getOutputStream();
         response.setHeader("Content-Disposition", "attachment; filename=\"export-clients.xlsx\"");
 
         Workbook workbook = new XSSFWorkbook();
